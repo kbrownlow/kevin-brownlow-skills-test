@@ -1,0 +1,22 @@
+{
+  "name": "redalmond/module-buttonscmspage",
+  "description": "",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+      {
+          "name": "Kevin Brownlow",
+          "email": "kevin.brownlow@icloud.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "RedAlmond\\ButtonsCMSPage\\": ""
+      }
+  }
+}
